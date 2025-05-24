@@ -103,6 +103,13 @@ Platform:                                        macOS-15.4.1-x86_64-i386-64bit
 FastMCP root path: /Users/Fab/Git/mcp-server/.venv/lib/python3.11/site-packages
 ```
 
+---
+
+## Creating a FastMCP Server and Tools
+See [set up mcp server and tool](readme/setup_mcp_server_and_tool.md)
+
+
+---
 ### Usage 
 
 ```bash
