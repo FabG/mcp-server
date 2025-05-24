@@ -105,9 +105,15 @@ FastMCP root path: /Users/Fab/Git/mcp-server/.venv/lib/python3.11/site-packages
 
 ---
 
-## Creating a FastMCP Server and Tools
-See [set up mcp server and tool](readme/setup_mcp_server_and_tool.md)
+## Quickstart - FastMCP Server and Tools
+See [Quickstart - creating an server and tool](readme/quickstart_mcp_server.md)
 
+
+## FastMCP Server
+To Learn about the core FastMCP server class and how to run it, refer to: [FastMCP server](readme/fastmcp_server.md)
+
+## FastMCP Client
+TBD
 
 ---
 ### Usage 
