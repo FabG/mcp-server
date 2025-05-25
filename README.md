@@ -113,7 +113,7 @@ See [Quickstart - creating an server and tool](readme/quickstart_mcp_server.md)
 To Learn about the core FastMCP server class and how to run it, refer to: [FastMCP server](readme/fastmcp_server.md)
 
 ## FastMCP Client
-TBD
+To Learn about the core FastMCP server class and how to run it, refer to: [FastMCP client](readme/fastmcp_client.md)
 
 ---
 ### Usage 
