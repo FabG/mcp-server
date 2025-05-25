@@ -104,6 +104,26 @@ FastMCP root path: /Users/Fab/Git/mcp-server/.venv/lib/python3.11/site-packages
 ```
 
 ---
+## Projects
+
+### MCP Server for extracting info from a Web Page from Amazon
+This project demonstrates how to use [FastMCP](https://github.com/multimodal-copilot/mcp) to build a simple MCP server and client with AI-assisted tool orchestration. 
+The workflow operates as follows:
+
+- The user sends a message like "Fetch product info from this Amazon link."
+- The MCP client checks for a registered tool that can handle that task
+- The client sends a structured request to the MCP server
+- The MCP server executes the appropriate action (e.g., launching a headless browser)
+- The server returns structured results to the MCP client
+- The client forwards the results to the LLM, which presents them to the user
+
+
+#### Features
+This server  offer two tools: 
+- `fetch_page`: to download HTML 
+- `extract_info`: extract organized information. 
+
+For more info see [readme](projects/web-scrap-amazon/readme.md)
 
 ## Quickstart - FastMCP Server and Tools
 See [Quickstart - creating an server and tool](readme/quickstart_mcp_server.md)
